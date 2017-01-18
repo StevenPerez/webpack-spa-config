@@ -1,0 +1,29 @@
+{
+  "name": "webpack-spa-config",
+  "version": "1.0.0",
+  "description": "This is a repository created in order to learn and practice about webpack configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenPerez/webpack-spa-config.git"
+  },
+  "author": "Steven Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenPerez/webpack-spa-config/issues"
+  },
+  "homepage": "https://github.com/StevenPerez/webpack-spa-config#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
