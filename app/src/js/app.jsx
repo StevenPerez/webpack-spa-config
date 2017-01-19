@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import '../style/index.scss';
+
 import ComponentA from './ComponentA';
 import ComponentB from './ComponentB';
 
@@ -9,6 +11,7 @@ const App = React.createClass({
 	render() {
 		return (
 			<div>
+				<h1>Hi World 17</h1>
 				<ComponentA />
 				<ComponentB />
 			</div>

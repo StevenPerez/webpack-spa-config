@@ -4,6 +4,9 @@
   "description": "This is a repository created in order to learn and practice about webpack configuration.",
   "main": "index.js",
   "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
+    "start": "webpack --config webpack.config.js",
+    "prod": "NODE_ENV=production webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,10 +20,26 @@
   },
   "homepage": "https://github.com/StevenPerez/webpack-spa-config#readme",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "^0.26.1",
     "eslint": "^3.13.1",
     "eslint-plugin-react": "^6.9.0",
-    "webpack": "^1.14.0"
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.3.0",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   },
   "dependencies": {
     "react": "^15.4.2",

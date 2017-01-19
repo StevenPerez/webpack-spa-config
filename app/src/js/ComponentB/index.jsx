@@ -4,7 +4,7 @@ export default React.createClass({
 	displayName: 'ComponentB',
 	render() {
 		return (
-			<h1>Component B</h1>
+			<h1 className="compB">Component B</h1>
 		);
 	},
 });
